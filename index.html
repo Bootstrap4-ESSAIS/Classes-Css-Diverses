@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Important pour faire du Responsive -->
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="./css/index.css" />
+
+
+
+  <script src="./_src/index.js"></script>
+</head>
+
+<body onload="fMain();">
+  <h1 class="d-flex justify-content-center"> BOOTSTRAP 4</h1>
+
+  <div class="mb-5" style='border: orange solid 4px'>
+    <div class="p-5 m-4"style='border: green solid 2px'>
+      classes css :  <br>
+        p-N :  pour un "niveau" de padding allant de 1 à 5 max, exemple p-5 comme ici pour cette div,<br>
+        m-N :  pour un "niveau" de margin allant de 1 à 5 max, exemple m-4 comme ici pour cette div.<br><br>
+        pl-N :  pour un "niveau" de padding-left allant de 1 à 5 max.<br>
+        pr-N :  pour un "niveau" de padding-left allant de 1 à 5 max.<br>
+        pb-N, pt-N etc...<br>
+        ml-N :  pour un "niveau" de margin-left allant de 1 à 5 max.<br>
+        mr-N :  pour un "niveau" de margin-left allant de 1 à 5 max.<br>
+        mb-N, mt-N etc...<br><br><br>
+        <span style="color:red;">
+          A NOTER QUE : <br>
+          &nbsp;&nbsp;dés lors qu'un m-N est précisé, les éventuels ml-N mr-N, etc... seront ignorés.<br>
+          &nbsp;&nbsp;même chose pour les p-N, par rapport aux pl-N, pr-N, etc... .<br>
+        </span>
+    </div>
+  </div><hr>
+
+  <button class="btn btn-default">Ici Bouton : btn btn-default</button><br><hr>
+  <button class="btn-primary">Ici Bouton : btn-primary</button><br><hr>
+  <button class="btn btn-primary">Ici Bouton : btn btn-primary</button><br><hr>
+
+</body>
+
+</html>
